@@ -1,0 +1,13 @@
+query User {
+  me {
+    id
+    email
+    profileImage
+    trips {
+      id
+      site
+      isBooked
+    }
+    token
+  }
+}
