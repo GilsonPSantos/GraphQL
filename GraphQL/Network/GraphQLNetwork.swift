@@ -10,9 +10,7 @@ final class GraphQLNetwork: GraphQLNetworkProtocol {
     private let apolloClient: ApolloClientProtocol
     private let configuration: GraphQLNetworkConfigurationProtocol
 
-    static let shared: GraphQLNetworkProtocol = GraphQLNetwork()
-
-    private init(configuration: GraphQLNetworkConfigurationProtocol = GraphQLNetworkConfiguration()) {
+    init(configuration: GraphQLNetworkConfigurationProtocol = GraphQLNetworkConfiguration()) {
         self.configuration = configuration
         self.apolloClient = configuration.createClient(with: [GraphQLNetworkInterceptor()])
     }

@@ -20,8 +20,6 @@ final class GraphQLNetworkInterceptor: GraphQLNetworkInterceptorProtocol {
                                    completion: @escaping (Result<GraphQLResult<Operation.Data>, Error>) -> Void) where Operation : GraphQLOperation {
         request.addHeader(name: "Authorization", value: "token")
         setupAditionalHeaders(in: request)
-        print("Request: \(request)")
-        print("Headers: \(try? request.toURLRequest().allHTTPHeaderFields)")
         chain.proceedAsync(request: request, response: response, completion: completion)
     }
 

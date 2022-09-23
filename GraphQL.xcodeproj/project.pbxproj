@@ -20,12 +20,19 @@
 		024C7D2F28DBB355001F8BCD /* GraphQLNetworkInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024C7D2E28DBB355001F8BCD /* GraphQLNetworkInterceptor.swift */; };
 		024C7D3128DBB4FC001F8BCD /* GraphQLNetworkInterceptorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024C7D3028DBB4FC001F8BCD /* GraphQLNetworkInterceptorProvider.swift */; };
 		02614A3828DA40EA002EB5F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02614A3728DA40EA002EB5F7 /* AppDelegate.swift */; };
-		02614A3A28DA40EA002EB5F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02614A3928DA40EA002EB5F7 /* SceneDelegate.swift */; };
-		02614A3C28DA40EA002EB5F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02614A3B28DA40EA002EB5F7 /* ViewController.swift */; };
-		02614A3F28DA40EA002EB5F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02614A3D28DA40EA002EB5F7 /* Main.storyboard */; };
+		02614A3C28DA40EA002EB5F7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02614A3B28DA40EA002EB5F7 /* HomeViewController.swift */; };
 		02614A4128DA40ED002EB5F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02614A4028DA40ED002EB5F7 /* Assets.xcassets */; };
 		02614A4428DA40ED002EB5F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02614A4228DA40ED002EB5F7 /* LaunchScreen.storyboard */; };
 		02614A5228DA984F002EB5F7 /* GraphQLNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02614A5128DA984F002EB5F7 /* GraphQLNetwork.swift */; };
+		028F925928DD15B300038C57 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F925828DD15B300038C57 /* AppConfiguration.swift */; };
+		028F925B28DD15F800038C57 /* CoreBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F925A28DD15F800038C57 /* CoreBuilder.swift */; };
+		028F925E28DD181A00038C57 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F925D28DD181A00038C57 /* HomeService.swift */; };
+		028F926028DD182300038C57 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F925F28DD182300038C57 /* HomePresenter.swift */; };
+		028F926328DD18C000038C57 /* HomeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F926228DD18C000038C57 /* HomeRequest.swift */; };
+		028F926528DD18C700038C57 /* HomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F926428DD18C700038C57 /* HomeResponse.swift */; };
+		028F926828DD19B000038C57 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F926728DD19B000038C57 /* HomeViewModel.swift */; };
+		028F926B28DD1B2100038C57 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F926A28DD1B2100038C57 /* HomeView.swift */; };
+		028F926D28DD1FDD00038C57 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F926C28DD1FDD00038C57 /* HomeCoordinator.swift */; };
 		8B8AD839BA97AEA194D8396F /* Pods_GraphQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831F51074A4CB6771F6CA637 /* Pods_GraphQL.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,15 +51,22 @@
 		024C7D3028DBB4FC001F8BCD /* GraphQLNetworkInterceptorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLNetworkInterceptorProvider.swift; sourceTree = "<group>"; };
 		02614A3428DA40EA002EB5F7 /* GraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02614A3728DA40EA002EB5F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02614A3928DA40EA002EB5F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02614A3B28DA40EA002EB5F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		02614A3E28DA40EA002EB5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02614A3B28DA40EA002EB5F7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		02614A4028DA40ED002EB5F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02614A4328DA40ED002EB5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02614A4528DA40ED002EB5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02614A4C28DA432D002EB5F7 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		02614A4E28DA9748002EB5F7 /* LaunchList.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = LaunchList.graphql; sourceTree = "<group>"; };
 		02614A5128DA984F002EB5F7 /* GraphQLNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLNetwork.swift; sourceTree = "<group>"; };
+		028F925828DD15B300038C57 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		028F925A28DD15F800038C57 /* CoreBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBuilder.swift; sourceTree = "<group>"; };
+		028F925D28DD181A00038C57 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		028F925F28DD182300038C57 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		028F926228DD18C000038C57 /* HomeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRequest.swift; sourceTree = "<group>"; };
+		028F926428DD18C700038C57 /* HomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeResponse.swift; sourceTree = "<group>"; };
+		028F926728DD19B000038C57 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		028F926A28DD1B2100038C57 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		028F926C28DD1FDD00038C57 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		4C4680B25C5CC926484D889F /* Pods-GraphQL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL.debug.xcconfig"; path = "Target Support Files/Pods-GraphQL/Pods-GraphQL.debug.xcconfig"; sourceTree = "<group>"; };
 		831F51074A4CB6771F6CA637 /* Pods_GraphQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A94C7731F36E409E490911 /* Pods-GraphQL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL.release.xcconfig"; path = "Target Support Files/Pods-GraphQL/Pods-GraphQL.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,18 +157,57 @@
 		02614A3628DA40EA002EB5F7 /* GraphQL */ = {
 			isa = PBXGroup;
 			children = (
+				028F925828DD15B300038C57 /* AppConfiguration.swift */,
+				028F925A28DD15F800038C57 /* CoreBuilder.swift */,
 				024C7D1C28DB3277001F8BCD /* Network */,
 				024C7D1728DB317F001F8BCD /* Resource */,
 				024C7D1228DB3048001F8BCD /* API */,
+				028F925C28DD17B300038C57 /* Home */,
 				02614A3728DA40EA002EB5F7 /* AppDelegate.swift */,
-				02614A3928DA40EA002EB5F7 /* SceneDelegate.swift */,
-				02614A3B28DA40EA002EB5F7 /* ViewController.swift */,
-				02614A3D28DA40EA002EB5F7 /* Main.storyboard */,
 				02614A4028DA40ED002EB5F7 /* Assets.xcassets */,
 				02614A4228DA40ED002EB5F7 /* LaunchScreen.storyboard */,
 				02614A4528DA40ED002EB5F7 /* Info.plist */,
 			);
 			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		028F925C28DD17B300038C57 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				028F926C28DD1FDD00038C57 /* HomeCoordinator.swift */,
+				028F925F28DD182300038C57 /* HomePresenter.swift */,
+				028F925D28DD181A00038C57 /* HomeService.swift */,
+				02614A3B28DA40EA002EB5F7 /* HomeViewController.swift */,
+				028F926128DD18AD00038C57 /* Model */,
+				028F926928DD1B1300038C57 /* View */,
+				028F926628DD199900038C57 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		028F926128DD18AD00038C57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				028F926228DD18C000038C57 /* HomeRequest.swift */,
+				028F926428DD18C700038C57 /* HomeResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		028F926628DD199900038C57 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				028F926728DD19B000038C57 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		028F926928DD1B1300038C57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				028F926A28DD1B2100038C57 /* HomeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		2A59ACAF6525328072E5B0DA /* Frameworks */ = {
@@ -239,7 +292,6 @@
 				024C7D1928DB31E2001F8BCD /* User.graphql in Resources */,
 				02614A4428DA40ED002EB5F7 /* LaunchScreen.storyboard in Resources */,
 				02614A4128DA40ED002EB5F7 /* Assets.xcassets in Resources */,
-				02614A3F28DA40EA002EB5F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,19 +381,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				02614A5228DA984F002EB5F7 /* GraphQLNetwork.swift in Sources */,
+				028F926828DD19B000038C57 /* HomeViewModel.swift in Sources */,
 				024C7D2228DB588B001F8BCD /* LaunchListRequest.swift in Sources */,
 				024C7D2928DB95C5001F8BCD /* GraphQLNetworkConfiguration.swift in Sources */,
 				024C7D2D28DBA7EC001F8BCD /* LaunchListResponse.swift in Sources */,
+				028F926D28DD1FDD00038C57 /* HomeCoordinator.swift in Sources */,
 				024C7D2F28DBB355001F8BCD /* GraphQLNetworkInterceptor.swift in Sources */,
+				028F925B28DD15F800038C57 /* CoreBuilder.swift in Sources */,
+				028F926328DD18C000038C57 /* HomeRequest.swift in Sources */,
+				028F925E28DD181A00038C57 /* HomeService.swift in Sources */,
 				024C7D2028DB4751001F8BCD /* UserRequest.swift in Sources */,
 				024C7D1528DB3086001F8BCD /* LaunchList.graphql.swift in Sources */,
-				02614A3C28DA40EA002EB5F7 /* ViewController.swift in Sources */,
+				02614A3C28DA40EA002EB5F7 /* HomeViewController.swift in Sources */,
 				02614A3828DA40EA002EB5F7 /* AppDelegate.swift in Sources */,
 				024C7D1B28DB3205001F8BCD /* User.graphql.swift in Sources */,
-				02614A3A28DA40EA002EB5F7 /* SceneDelegate.swift in Sources */,
+				028F925928DD15B300038C57 /* AppConfiguration.swift in Sources */,
+				028F926028DD182300038C57 /* HomePresenter.swift in Sources */,
 				024C7D2B28DBA6C3001F8BCD /* NetworkError.swift in Sources */,
 				024C7D1E28DB3291001F8BCD /* GraphQLRequest.swift in Sources */,
 				024C7D3128DBB4FC001F8BCD /* GraphQLNetworkInterceptorProvider.swift in Sources */,
+				028F926528DD18C700038C57 /* HomeResponse.swift in Sources */,
+				028F926B28DD1B2100038C57 /* HomeView.swift in Sources */,
 				024C7D2728DB9386001F8BCD /* ApolloClientProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,14 +409,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		02614A3D28DA40EA002EB5F7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02614A3E28DA40EA002EB5F7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		02614A4228DA40ED002EB5F7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -494,7 +546,6 @@
 				INFOPLIST_FILE = GraphQL/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,7 +557,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -522,7 +573,6 @@
 				INFOPLIST_FILE = GraphQL/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -534,7 +584,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
