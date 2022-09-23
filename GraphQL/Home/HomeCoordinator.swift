@@ -8,10 +8,6 @@ protocol HomeCoordinatorProtocol {
 final class HomeCoordinator: HomeCoordinatorProtocol {
     private let graphQLNetwork: GraphQLNetworkProtocol
 
-    deinit {
-        print("De init")
-    }
-
     init(graphQLNetwork: GraphQLNetworkProtocol) {
         self.graphQLNetwork = graphQLNetwork
     }

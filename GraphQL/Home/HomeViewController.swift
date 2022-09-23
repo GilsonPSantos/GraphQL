@@ -10,10 +10,6 @@ class HomeViewController: UIViewController {
     private let customView: HomeViewProtocol
     private var rowsViewModel: [HomeViewModel.Row] = []
 
-    deinit {
-        print("De init")
-    }
-
     init(service: HomeServiceProtocol,
          customView: HomeViewProtocol)
     {
@@ -34,7 +30,7 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        service.fetchData()
+        service.fetchData()
     }
 }
 
@@ -46,8 +42,7 @@ extension HomeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let element = rowsViewModel[indexPath.row]
         let cell = UITableViewCell()
-        cell.textLabel?.text = element.id
-        cell.detailTextLabel?.text = element.site
+        cell.textLabel?.text = element.text
         return cell
     }
 }

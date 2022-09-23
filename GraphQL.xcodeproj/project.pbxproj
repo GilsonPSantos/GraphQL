@@ -20,21 +20,35 @@
 		024C7D2F28DBB355001F8BCD /* GraphQLNetworkInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024C7D2E28DBB355001F8BCD /* GraphQLNetworkInterceptor.swift */; };
 		024C7D3128DBB4FC001F8BCD /* GraphQLNetworkInterceptorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024C7D3028DBB4FC001F8BCD /* GraphQLNetworkInterceptorProvider.swift */; };
 		02614A3828DA40EA002EB5F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02614A3728DA40EA002EB5F7 /* AppDelegate.swift */; };
-		02614A3C28DA40EA002EB5F7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02614A3B28DA40EA002EB5F7 /* HomeViewController.swift */; };
+		02614A3A28DA40EA002EB5F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02614A3928DA40EA002EB5F7 /* SceneDelegate.swift */; };
+		02614A3C28DA40EA002EB5F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02614A3B28DA40EA002EB5F7 /* ViewController.swift */; };
 		02614A4128DA40ED002EB5F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02614A4028DA40ED002EB5F7 /* Assets.xcassets */; };
 		02614A4428DA40ED002EB5F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02614A4228DA40ED002EB5F7 /* LaunchScreen.storyboard */; };
 		02614A5228DA984F002EB5F7 /* GraphQLNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02614A5128DA984F002EB5F7 /* GraphQLNetwork.swift */; };
-		028F925928DD15B300038C57 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F925828DD15B300038C57 /* AppConfiguration.swift */; };
-		028F925B28DD15F800038C57 /* CoreBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F925A28DD15F800038C57 /* CoreBuilder.swift */; };
-		028F925E28DD181A00038C57 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F925D28DD181A00038C57 /* HomeService.swift */; };
-		028F926028DD182300038C57 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F925F28DD182300038C57 /* HomePresenter.swift */; };
-		028F926328DD18C000038C57 /* HomeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F926228DD18C000038C57 /* HomeRequest.swift */; };
-		028F926528DD18C700038C57 /* HomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F926428DD18C700038C57 /* HomeResponse.swift */; };
-		028F926828DD19B000038C57 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F926728DD19B000038C57 /* HomeViewModel.swift */; };
-		028F926B28DD1B2100038C57 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F926A28DD1B2100038C57 /* HomeView.swift */; };
-		028F926D28DD1FDD00038C57 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F926C28DD1FDD00038C57 /* HomeCoordinator.swift */; };
+		02BDC33D28DD2BB0000B975C /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDC32F28DD2BAF000B975C /* AppConfiguration.swift */; };
+		02BDC33E28DD2BB0000B975C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDC33228DD2BB0000B975C /* HomeViewModel.swift */; };
+		02BDC33F28DD2BB0000B975C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDC33328DD2BB0000B975C /* HomeViewController.swift */; };
+		02BDC34028DD2BB0000B975C /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDC33428DD2BB0000B975C /* HomeCoordinator.swift */; };
+		02BDC34128DD2BB0000B975C /* HomeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDC33628DD2BB0000B975C /* HomeRequest.swift */; };
+		02BDC34228DD2BB0000B975C /* HomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDC33728DD2BB0000B975C /* HomeResponse.swift */; };
+		02BDC34328DD2BB0000B975C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDC33928DD2BB0000B975C /* HomeView.swift */; };
+		02BDC34428DD2BB0000B975C /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDC33A28DD2BB0000B975C /* HomePresenter.swift */; };
+		02BDC34528DD2BB0000B975C /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDC33B28DD2BB0000B975C /* HomeService.swift */; };
+		02BDC34628DD2BB0000B975C /* CoreBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDC33C28DD2BB0000B975C /* CoreBuilder.swift */; };
+		02BDC35628DD2D9D000B975C /* HomeCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDC35528DD2D9D000B975C /* HomeCoordinatorTests.swift */; };
+		02BDC35C28DD2E38000B975C /* GraphQLNetworkSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDC35B28DD2E38000B975C /* GraphQLNetworkSpy.swift */; };
 		8B8AD839BA97AEA194D8396F /* Pods_GraphQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831F51074A4CB6771F6CA637 /* Pods_GraphQL.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02BDC34F28DD2D47000B975C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02614A2C28DA40EA002EB5F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02614A3328DA40EA002EB5F7;
+			remoteInfo = GraphQL;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		024C7D1328DB3086001F8BCD /* LaunchList.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchList.graphql.swift; sourceTree = "<group>"; };
@@ -51,22 +65,27 @@
 		024C7D3028DBB4FC001F8BCD /* GraphQLNetworkInterceptorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLNetworkInterceptorProvider.swift; sourceTree = "<group>"; };
 		02614A3428DA40EA002EB5F7 /* GraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02614A3728DA40EA002EB5F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02614A3B28DA40EA002EB5F7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		02614A3928DA40EA002EB5F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02614A3B28DA40EA002EB5F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02614A4028DA40ED002EB5F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02614A4328DA40ED002EB5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02614A4528DA40ED002EB5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02614A4C28DA432D002EB5F7 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		02614A4E28DA9748002EB5F7 /* LaunchList.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = LaunchList.graphql; sourceTree = "<group>"; };
 		02614A5128DA984F002EB5F7 /* GraphQLNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLNetwork.swift; sourceTree = "<group>"; };
-		028F925828DD15B300038C57 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
-		028F925A28DD15F800038C57 /* CoreBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBuilder.swift; sourceTree = "<group>"; };
-		028F925D28DD181A00038C57 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
-		028F925F28DD182300038C57 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
-		028F926228DD18C000038C57 /* HomeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRequest.swift; sourceTree = "<group>"; };
-		028F926428DD18C700038C57 /* HomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeResponse.swift; sourceTree = "<group>"; };
-		028F926728DD19B000038C57 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		028F926A28DD1B2100038C57 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		028F926C28DD1FDD00038C57 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		02BDC32F28DD2BAF000B975C /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		02BDC33228DD2BB0000B975C /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		02BDC33328DD2BB0000B975C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		02BDC33428DD2BB0000B975C /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		02BDC33628DD2BB0000B975C /* HomeRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRequest.swift; sourceTree = "<group>"; };
+		02BDC33728DD2BB0000B975C /* HomeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeResponse.swift; sourceTree = "<group>"; };
+		02BDC33928DD2BB0000B975C /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		02BDC33A28DD2BB0000B975C /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		02BDC33B28DD2BB0000B975C /* HomeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		02BDC33C28DD2BB0000B975C /* CoreBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreBuilder.swift; sourceTree = "<group>"; };
+		02BDC34B28DD2D47000B975C /* GraphQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphQLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02BDC35528DD2D9D000B975C /* HomeCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorTests.swift; sourceTree = "<group>"; };
+		02BDC35B28DD2E38000B975C /* GraphQLNetworkSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLNetworkSpy.swift; sourceTree = "<group>"; };
 		4C4680B25C5CC926484D889F /* Pods-GraphQL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL.debug.xcconfig"; path = "Target Support Files/Pods-GraphQL/Pods-GraphQL.debug.xcconfig"; sourceTree = "<group>"; };
 		831F51074A4CB6771F6CA637 /* Pods_GraphQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A94C7731F36E409E490911 /* Pods-GraphQL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL.release.xcconfig"; path = "Target Support Files/Pods-GraphQL/Pods-GraphQL.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +97,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B8AD839BA97AEA194D8396F /* Pods_GraphQL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BDC34828DD2D47000B975C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				02614A3628DA40EA002EB5F7 /* GraphQL */,
+				02BDC34C28DD2D47000B975C /* GraphQLTests */,
 				02614A3528DA40EA002EB5F7 /* Products */,
 				612C17DF33C9C15931EE30B3 /* Pods */,
 				2A59ACAF6525328072E5B0DA /* Frameworks */,
@@ -150,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				02614A3428DA40EA002EB5F7 /* GraphQL.app */,
+				02BDC34B28DD2D47000B975C /* GraphQLTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,13 +185,15 @@
 		02614A3628DA40EA002EB5F7 /* GraphQL */ = {
 			isa = PBXGroup;
 			children = (
-				028F925828DD15B300038C57 /* AppConfiguration.swift */,
-				028F925A28DD15F800038C57 /* CoreBuilder.swift */,
+				02BDC32F28DD2BAF000B975C /* AppConfiguration.swift */,
+				02BDC33C28DD2BB0000B975C /* CoreBuilder.swift */,
 				024C7D1C28DB3277001F8BCD /* Network */,
 				024C7D1728DB317F001F8BCD /* Resource */,
 				024C7D1228DB3048001F8BCD /* API */,
-				028F925C28DD17B300038C57 /* Home */,
+				02BDC33028DD2BAF000B975C /* Home */,
 				02614A3728DA40EA002EB5F7 /* AppDelegate.swift */,
+				02614A3928DA40EA002EB5F7 /* SceneDelegate.swift */,
+				02614A3B28DA40EA002EB5F7 /* ViewController.swift */,
 				02614A4028DA40ED002EB5F7 /* Assets.xcassets */,
 				02614A4228DA40ED002EB5F7 /* LaunchScreen.storyboard */,
 				02614A4528DA40ED002EB5F7 /* Info.plist */,
@@ -171,43 +201,100 @@
 			path = GraphQL;
 			sourceTree = "<group>";
 		};
-		028F925C28DD17B300038C57 /* Home */ = {
+		02BDC33028DD2BAF000B975C /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				028F926C28DD1FDD00038C57 /* HomeCoordinator.swift */,
-				028F925F28DD182300038C57 /* HomePresenter.swift */,
-				028F925D28DD181A00038C57 /* HomeService.swift */,
-				02614A3B28DA40EA002EB5F7 /* HomeViewController.swift */,
-				028F926128DD18AD00038C57 /* Model */,
-				028F926928DD1B1300038C57 /* View */,
-				028F926628DD199900038C57 /* ViewModel */,
+				02BDC33428DD2BB0000B975C /* HomeCoordinator.swift */,
+				02BDC33A28DD2BB0000B975C /* HomePresenter.swift */,
+				02BDC33B28DD2BB0000B975C /* HomeService.swift */,
+				02BDC33328DD2BB0000B975C /* HomeViewController.swift */,
+				02BDC33528DD2BB0000B975C /* Model */,
+				02BDC33828DD2BB0000B975C /* View */,
+				02BDC33128DD2BAF000B975C /* ViewModel */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		028F926128DD18AD00038C57 /* Model */ = {
+		02BDC33128DD2BAF000B975C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				028F926228DD18C000038C57 /* HomeRequest.swift */,
-				028F926428DD18C700038C57 /* HomeResponse.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		028F926628DD199900038C57 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				028F926728DD19B000038C57 /* HomeViewModel.swift */,
+				02BDC33228DD2BB0000B975C /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		028F926928DD1B1300038C57 /* View */ = {
+		02BDC33528DD2BB0000B975C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				028F926A28DD1B2100038C57 /* HomeView.swift */,
+				02BDC33628DD2BB0000B975C /* HomeRequest.swift */,
+				02BDC33728DD2BB0000B975C /* HomeResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02BDC33828DD2BB0000B975C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02BDC33928DD2BB0000B975C /* HomeView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		02BDC34C28DD2D47000B975C /* GraphQLTests */ = {
+			isa = PBXGroup;
+			children = (
+				02BDC35428DD2D68000B975C /* Home */,
+				02BDC35928DD2E13000B975C /* Shared */,
+			);
+			path = GraphQLTests;
+			sourceTree = "<group>";
+		};
+		02BDC35428DD2D68000B975C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				02BDC35528DD2D9D000B975C /* HomeCoordinatorTests.swift */,
+				02BDC35728DD2DCC000B975C /* Fixture */,
+				02BDC35828DD2DCC000B975C /* Spy */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		02BDC35728DD2DCC000B975C /* Fixture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fixture;
+			sourceTree = "<group>";
+		};
+		02BDC35828DD2DCC000B975C /* Spy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Spy;
+			sourceTree = "<group>";
+		};
+		02BDC35928DD2E13000B975C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				02BDC35D28DD2E86000B975C /* Fixture */,
+				02BDC35A28DD2E27000B975C /* Spy */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		02BDC35A28DD2E27000B975C /* Spy */ = {
+			isa = PBXGroup;
+			children = (
+				02BDC35B28DD2E38000B975C /* GraphQLNetworkSpy.swift */,
+			);
+			path = Spy;
+			sourceTree = "<group>";
+		};
+		02BDC35D28DD2E86000B975C /* Fixture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fixture;
 			sourceTree = "<group>";
 		};
 		2A59ACAF6525328072E5B0DA /* Frameworks */ = {
@@ -251,6 +338,24 @@
 			productReference = 02614A3428DA40EA002EB5F7 /* GraphQL.app */;
 			productType = "com.apple.product-type.application";
 		};
+		02BDC34A28DD2D47000B975C /* GraphQLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02BDC35128DD2D47000B975C /* Build configuration list for PBXNativeTarget "GraphQLTests" */;
+			buildPhases = (
+				02BDC34728DD2D47000B975C /* Sources */,
+				02BDC34828DD2D47000B975C /* Frameworks */,
+				02BDC34928DD2D47000B975C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02BDC35028DD2D47000B975C /* PBXTargetDependency */,
+			);
+			name = GraphQLTests;
+			productName = GraphQLTests;
+			productReference = 02BDC34B28DD2D47000B975C /* GraphQLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -263,6 +368,10 @@
 				TargetAttributes = {
 					02614A3328DA40EA002EB5F7 = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					02BDC34A28DD2D47000B975C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 02614A3328DA40EA002EB5F7;
 					};
 				};
 			};
@@ -280,6 +389,7 @@
 			projectRoot = "";
 			targets = (
 				02614A3328DA40EA002EB5F7 /* GraphQL */,
+				02BDC34A28DD2D47000B975C /* GraphQLTests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,6 +402,13 @@
 				024C7D1928DB31E2001F8BCD /* User.graphql in Resources */,
 				02614A4428DA40ED002EB5F7 /* LaunchScreen.storyboard in Resources */,
 				02614A4128DA40ED002EB5F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BDC34928DD2D47000B975C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,33 +497,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02BDC34628DD2BB0000B975C /* CoreBuilder.swift in Sources */,
+				02BDC33E28DD2BB0000B975C /* HomeViewModel.swift in Sources */,
 				02614A5228DA984F002EB5F7 /* GraphQLNetwork.swift in Sources */,
-				028F926828DD19B000038C57 /* HomeViewModel.swift in Sources */,
+				02BDC34428DD2BB0000B975C /* HomePresenter.swift in Sources */,
 				024C7D2228DB588B001F8BCD /* LaunchListRequest.swift in Sources */,
 				024C7D2928DB95C5001F8BCD /* GraphQLNetworkConfiguration.swift in Sources */,
 				024C7D2D28DBA7EC001F8BCD /* LaunchListResponse.swift in Sources */,
-				028F926D28DD1FDD00038C57 /* HomeCoordinator.swift in Sources */,
+				02BDC34528DD2BB0000B975C /* HomeService.swift in Sources */,
+				02BDC34328DD2BB0000B975C /* HomeView.swift in Sources */,
+				02BDC33F28DD2BB0000B975C /* HomeViewController.swift in Sources */,
+				02BDC34128DD2BB0000B975C /* HomeRequest.swift in Sources */,
 				024C7D2F28DBB355001F8BCD /* GraphQLNetworkInterceptor.swift in Sources */,
-				028F925B28DD15F800038C57 /* CoreBuilder.swift in Sources */,
-				028F926328DD18C000038C57 /* HomeRequest.swift in Sources */,
-				028F925E28DD181A00038C57 /* HomeService.swift in Sources */,
 				024C7D2028DB4751001F8BCD /* UserRequest.swift in Sources */,
 				024C7D1528DB3086001F8BCD /* LaunchList.graphql.swift in Sources */,
-				02614A3C28DA40EA002EB5F7 /* HomeViewController.swift in Sources */,
+				02614A3C28DA40EA002EB5F7 /* ViewController.swift in Sources */,
 				02614A3828DA40EA002EB5F7 /* AppDelegate.swift in Sources */,
 				024C7D1B28DB3205001F8BCD /* User.graphql.swift in Sources */,
-				028F925928DD15B300038C57 /* AppConfiguration.swift in Sources */,
-				028F926028DD182300038C57 /* HomePresenter.swift in Sources */,
+				02BDC33D28DD2BB0000B975C /* AppConfiguration.swift in Sources */,
+				02614A3A28DA40EA002EB5F7 /* SceneDelegate.swift in Sources */,
 				024C7D2B28DBA6C3001F8BCD /* NetworkError.swift in Sources */,
 				024C7D1E28DB3291001F8BCD /* GraphQLRequest.swift in Sources */,
 				024C7D3128DBB4FC001F8BCD /* GraphQLNetworkInterceptorProvider.swift in Sources */,
-				028F926528DD18C700038C57 /* HomeResponse.swift in Sources */,
-				028F926B28DD1B2100038C57 /* HomeView.swift in Sources */,
 				024C7D2728DB9386001F8BCD /* ApolloClientProtocol.swift in Sources */,
+				02BDC34228DD2BB0000B975C /* HomeResponse.swift in Sources */,
+				02BDC34028DD2BB0000B975C /* HomeCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BDC34728DD2D47000B975C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BDC35628DD2D9D000B975C /* HomeCoordinatorTests.swift in Sources */,
+				02BDC35C28DD2E38000B975C /* GraphQLNetworkSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02BDC35028DD2D47000B975C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02614A3328DA40EA002EB5F7 /* GraphQL */;
+			targetProxy = 02BDC34F28DD2D47000B975C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		02614A4228DA40ED002EB5F7 /* LaunchScreen.storyboard */ = {
@@ -588,6 +724,40 @@
 			};
 			name = Release;
 		};
+		02BDC35228DD2D47000B975C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.graphql.GraphQLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphQL.app/GraphQL";
+			};
+			name = Debug;
+		};
+		02BDC35328DD2D47000B975C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.graphql.GraphQLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphQL.app/GraphQL";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -605,6 +775,15 @@
 			buildConfigurations = (
 				02614A4928DA40ED002EB5F7 /* Debug */,
 				02614A4A28DA40ED002EB5F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02BDC35128DD2D47000B975C /* Build configuration list for PBXNativeTarget "GraphQLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02BDC35228DD2D47000B975C /* Debug */,
+				02BDC35328DD2D47000B975C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

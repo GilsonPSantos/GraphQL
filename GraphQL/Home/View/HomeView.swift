@@ -10,9 +10,6 @@ typealias HomeViewDelegate = UITableViewDataSource
 
 final class HomeView: UIView, HomeViewProtocol {
 
-    deinit {
-        print("De init")
-    }
     static func make() -> HomeViewProtocol
     {
         return HomeView(tableView: tableView())
@@ -33,7 +30,6 @@ final class HomeView: UIView, HomeViewProtocol {
         tableView.showsVerticalScrollIndicator = false
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 150
-        tableView.backgroundColor = .red
         return tableView
     }
 

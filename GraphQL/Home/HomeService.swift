@@ -8,11 +8,6 @@ final class HomeService: HomeServiceProtocol {
     private let graphQLNetwork: GraphQLNetworkProtocol
     private let presenter: HomePresenterProtocol
 
-    deinit {
-        print("De init")
-    }
-
-
     init(graphQLNetwork: GraphQLNetworkProtocol, presenter: HomePresenterProtocol){
         self.graphQLNetwork = graphQLNetwork
         self.presenter = presenter
